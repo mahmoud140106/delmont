@@ -34,7 +34,6 @@
     font-size: 6rem;
     font-weight: bolder;
     text-transform: uppercase;
-    /* width: 100%; */
     text-align: left;
 }
 .carousel-caption span{
@@ -58,7 +57,7 @@
 .icons-section{
     background-color: rgba(0, 0, 0, 0);
     width: 100%;
-    height: 30rem;
+    height: 25rem;
     position: relative;
     margin-top: -10rem;
     z-index: 10;
@@ -80,17 +79,15 @@
     flex-direction: column;
     text-align: center;
     color: var(--white);
-    background-color: var(--white);
+    background-color: var(--light);
     border: 1px solid rgba(0, 0, 0, 0.045);
-    padding: 1%;
-    padding-bottom: 0%;
+    padding: 3% 2%  0% 2%;
     width: 25%;
     overflow-y: hidden;
     /* box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.045); */
 }
 .icons-section .icons-container .icons-box:hover{
     background-color: var(--teal);
-    padding-top: 3%;
     padding-bottom: 3%;
     transition: 0.8s ease;
     border: 1px solid var(--white);
@@ -142,7 +139,8 @@
 /* end icons */
 /* start counter */
 .img-count{
-    position: absolute;
+    position: relative;
+    background-color: var(--light);
 }
 .img-count img{
     height: 53rem;
@@ -184,8 +182,8 @@
     gap: 1rem;
     justify-content: left;
     flex: 1 1 25rem;
-    border-bottom: 1px solid rgba(0, 0, 0, 0.05);
-    border-right: 1px solid rgba(0, 0, 0, 0.05);
+    border-bottom: 2px solid rgba(0, 0, 0, 0.1);
+    border-right: 2px solid rgba(0, 0, 0, 0.1);
     padding: 2%;
 }
 .countup .count-container .count-box:nth-child(3){

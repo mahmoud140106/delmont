@@ -11,7 +11,7 @@ const Caption = (props) => {
           <MovingComponent
             type="fadeInFromLeft"
             duration="2500ms"
-            delay="1s"
+            delay="0s"
             direction="normal"
             timing="ease"
             iteration="1"
@@ -23,7 +23,7 @@ const Caption = (props) => {
           <MovingComponent
             type="fadeInFromBottom"
             duration="2500ms"
-            delay="1s"
+            delay="0s"
             direction="normal"
             timing="ease"
             iteration="1"

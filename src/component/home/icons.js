@@ -1,24 +1,20 @@
 import React, { useState } from 'react'
-import AOS from 'aos';
 import 'aos/dist/aos.css';
 const Icons = () => {
     const[iconBox,setIconBox]=useState([
-        {basicicon:"fa-solid fa-hands-holding-child" ,title:"Oral Care",description:"The Stronger Teeth"},
-        {basicicon:"fa-solid fa-hand-holding-heart" ,title:"Heal Body",description:"The Small carebear"},
-        {basicicon:"fa-solid fa-truck-medical" ,title:"Ambulance",description:"Shipping Via Air"},
+        {basicicon:"fa-solid fa-hands-holding-child" ,        title:"Oral Care", description:"The Stronger Teeth"},
+        {basicicon:"fa-solid fa-hand-holding-heart" ,         title:"Heal Body", description:"The Small carebear"},
+        {basicicon:"fa-solid fa-truck-medical" ,              title:"Ambulance", description:"Shipping Via Air"},
         {basicicon:"fa-solid fa-prescription-bottle-medical" ,title:"Drug Store",description:"A retailer shop"},
-        {basicicon:"fa-solid fa-eye" ,title:"Eye Care",description:"Sharping vision"}
+        {basicicon:"fa-solid fa-eye" ,                        title:"Eye Care",  description:"Sharping vision"}
       ])
-    //   useEffect(()=>{
-    //     AOS.init({duration:2000});
-    //   },[])
   return (
     <>
         <section className='icons-section' >
             <div className='icons-container'>
                 {
                     iconBox.map((icon)=>(
-                        <div className='icons-box' data-aos="zoom-in">
+                        <div className='icons-box' data-aos="zoom-in-up">
                         <div className='basic-icon'>
                         <i className={icon.basicicon}></i>
                         </div>

@@ -21,60 +21,7 @@ code {
     --title:#000;
     --card:aliceblue;
     --icon:rgb(56,74,235);
-}
-.dark {
-    --hover:rgb(56,74,235);
-    --back: linear-gradient(90deg,rgb(90, 85, 85),#050505,#000,#000,#000);
-    --font:#fff;
-    --foot:rgba(0, 0, 0,00.9);
-    --title:#000;
-    --card:aliceblue;
-    --icon:rgb(56,74,235);
-}
 
-.light{
-    --hover:rgb(56,74,235);
-    --back: linear-gradient(to right,rgb(136, 131, 131),#fff,#fff,#fff,#fff);
-    --font:#000;
-    --foot:rgba(0, 0, 0,0.1);
-    --title:#fff;
-    --card:rgba(0,0,0,0.8);
-    --icon:rgb(241,246,247);
-}
-* {
-    font-family: 'Nunito', sans-serif;
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    text-transform: capitalize;
-    transition: all 0.4s ease-in-out;
-}
-
-*::selection {
-    background: #fff;
-    color: var(--hover);
-}
-
-html {
-    font-size: 62.5%;
-    overflow-x: hidden;
-    scroll-padding-top: 6rem;
-    scroll-behavior: smooth;
-}
-body {
-    margin: 0;
-    padding: 0;
-    font-family: sans-serif;
-    color: #000;
-    /* overflow-y: auto; */
-    /* overflow-x: hidden; */
-    line-height: 1.42;
-    font-size: 16px;
-    /* background-image:var(--back) ; */
-    
-}
-
-:root {
     --blue: #007bff;
     --indigo: #6610f2;
     --purple: #6f42c1;
@@ -98,4 +45,54 @@ body {
     --dark: #343a40;
     --second:#033b4a;
     --count:#01d6a3;
+}
+/* .dark {
+    --hover:rgb(56,74,235);
+    --back: linear-gradient(90deg,rgb(90, 85, 85),#050505,#000,#000,#000);
+    --font:#fff;
+    --foot:rgba(0, 0, 0,00.9);
+    --title:#000;
+    --card:aliceblue;
+    --icon:rgb(56,74,235);
+}
+
+.light{
+    --hover:rgb(56,74,235);
+    --back: linear-gradient(to right,rgb(136, 131, 131),#fff,#fff,#fff,#fff);
+    --font:#000;
+    --foot:rgba(0, 0, 0,0.1);
+    --title:#fff;
+    --card:rgba(0,0,0,0.8);
+    --icon:rgb(241,246,247);
+} */
+* {
+    font-family: 'Nunito', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-transform: capitalize;
+    transition: all 0.4s ease-in-out;
+}
+
+*::selection {
+    background: var(--count);
+    color: var(--white);
+}
+
+html {
+    font-size: 62.5%;
+    overflow-x: hidden;
+    scroll-padding-top: 6rem;
+    scroll-behavior: smooth;
+}
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    color: #000;
+    /* overflow-y: auto; */
+    /* overflow-x: hidden; */
+    line-height: 1.42;
+    font-size: 16px;
+    /* background-image:var(--back) ; */
 }

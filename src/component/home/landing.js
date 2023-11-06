@@ -16,6 +16,10 @@ const Landing = (props) => {
         <img src= {props.slide2} alt= {props.slide2} />
         <Caption caption="WE GIVE YOU THE BEST!"/>
       </Carousel.Item>
+      <Carousel.Item>
+        <img src= {props.slide3} alt= {props.slide3} />
+        <Caption caption="WE GIVE YOU THE BEST!"/>
+      </Carousel.Item>
     </Carousel>
     </>
   )

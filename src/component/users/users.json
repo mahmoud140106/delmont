@@ -1,0 +1,132 @@
+[
+    {
+        "id": 1,
+        "name": "Roy Coleman",
+        "department":"cardiologist",
+        "overview": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. <br/>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto.",
+        "image": "./images/team-member/team-img01.jpg",
+        "phone": "1-570-236-7033",
+        "email": "john@gmail.com",
+        "city": "kilcoole",
+        "street": "Lovers Ln",
+        "experience":"Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum.<br/>quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, aliquam quaerat voluptatem.It has survived not only five centuries, but also the leap into. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt.",
+        "awards": {
+            "title": "Practical Degree From NY",
+            "year":"2016-2018",
+            "description": "Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni."
+        },
+        "education": {
+            "title": "2018 World Health Oraganized Award",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna."
+        },
+        "certificateimg":"./images/team-member/single-img-five.jpg",
+        "honors": {
+            "title":"2016 Doctor's Choice Award",
+            "description": "Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam modi tempora incidunt ut labore et dolore."
+        }
+    },
+    {
+        "id": 2,
+        "name": "Roy Coleman",
+        "department":"cardiologist",
+        "overview": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. <br/>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto.",
+        "image": "./images/team-member/team-img02.jpg",
+        "phone": "1-570-236-7033",
+        "email": "john@gmail.com",
+        "city": "kilcoole",
+        "street": "Lovers Ln",
+        "experience":"Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum.<br/>quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, aliquam quaerat voluptatem.It has survived not only five centuries, but also the leap into. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt.",
+        "awards": {
+            "title": "Practical Degree From NY",
+            "year":"2016-2018",
+            "description": "Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni."
+        },
+        "education": {
+            "title": "2018 World Health Oraganized Award",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna."
+        },
+        "certificateimg":"./images/team-member/single-img-five.jpg",
+        "honors": {
+            "title":"2016 Doctor's Choice Award",
+            "description": "Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam modi tempora incidunt ut labore et dolore."
+        }
+    },
+    {
+        "id": 3,
+        "name": "Roy Coleman",
+        "department":"cardiologist",
+        "overview": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. <br/>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto.",
+        "image": "./images/team-member/team-img03.jpg",
+        "phone": "1-570-236-7033",
+        "email": "john@gmail.com",
+        "city": "kilcoole",
+        "street": "Lovers Ln",
+        "experience":"Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum.<br/>quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, aliquam quaerat voluptatem.It has survived not only five centuries, but also the leap into. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt.",
+        "awards": {
+            "title": "Practical Degree From NY",
+            "year":"2016-2018",
+            "description": "Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni."
+        },
+        "education": {
+            "title": "2018 World Health Oraganized Award",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna."
+        },
+        "certificateimg":"./images/team-member/single-img-five.jpg",
+        "honors": {
+            "title":"2016 Doctor's Choice Award",
+            "description": "Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam modi tempora incidunt ut labore et dolore."
+        }
+    },
+    {
+        "id": 4,
+        "name": "Roy Coleman",
+        "department":"cardiologist",
+        "overview": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. <br/>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto.",
+        "image": "./images/team-member/team-img04.jpg",
+        "phone": "1-570-236-7033",
+        "email": "john@gmail.com",
+        "city": "kilcoole",
+        "street": "Lovers Ln",
+        "experience":"Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum.<br/>quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, aliquam quaerat voluptatem.It has survived not only five centuries, but also the leap into. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt.",
+        "awards": {
+            "title": "Practical Degree From NY",
+            "year":"2016-2018",
+            "description": "Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni."
+        },
+        "education": {
+            "title": "2018 World Health Oraganized Award",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna."
+        },
+        "certificateimg":"./images/team-member/single-img-five.jpg",
+        "honors": {
+            "title":"2016 Doctor's Choice Award",
+            "description": "Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam modi tempora incidunt ut labore et dolore."
+        }
+    },
+    {
+        "id": 5,
+        "name": "Roy Coleman",
+        "department":"cardiologist",
+        "overview": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. <br/>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto.",
+        "image": "./images/team-member/team-img05.jpg",
+        "phone": "1-570-236-7033",
+        "email": "john@gmail.com",
+        "city": "kilcoole",
+        "street": "Lovers Ln",
+        "experience":"Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum.<br/>quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, aliquam quaerat voluptatem.It has survived not only five centuries, but also the leap into. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt.",
+        "awards": {
+            "title": "Practical Degree From NY",
+            "year":"2016-2018",
+            "description": "Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni."
+        },
+        "education": {
+            "title": "2018 World Health Oraganized Award",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna."
+        },
+        "certificateimg":"./images/team-member/single-img-five.jpg",
+        "honors": {
+            "title":"2016 Doctor's Choice Award",
+            "description": "Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam modi tempora incidunt ut labore et dolore."
+        }
+    }
+]
