@@ -1,0 +1,215 @@
+
+.notfound{
+    margin: auto;
+    margin-top: 50%;
+    margin-bottom: 18%;
+    width: 70%;
+    color: var(--teal);
+    text-align: center;
+  }
+.header{
+    width: 100%;
+    background-color: var(--white);
+    position: sticky;
+    top: 0;    
+    z-index: 1000;
+}
+header {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    height: 80px;
+    padding: 20px 0px 10px 0px ;
+    align-items: center;
+    z-index: 1000;
+    margin: auto;
+    width: 75%;
+  }
+  header .logo{
+    width: 15rem;
+  }
+  header .logo img {
+    width: 100%;
+    height: 100%;
+  }
+  header .navbar{
+    display: flex;
+    justify-content: right;
+    flex-wrap: nowrap;
+    width: 60rem;
+  }
+  header .navbar a ,header .navbar i{
+    color: var(--second);
+    font-size: 1.8rem;
+    font-weight: bolder;
+    /* margin-left: 10px; */
+    text-decoration: none;
+    position: relative;
+    margin: 0.5% 2% 0.5% 5%;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+  }
+
+  header .navbar a:hover{
+    color: var(--teal);
+  }
+  header .navbar a.active{
+    color: var(--teal);
+  }
+  header .navbar a.active:before{
+    /* height: 100%; */
+    width: 100%;
+  }
+  header #search::after{
+    position: absolute;
+    content: "";
+    /* bottom: 0; */
+    right: -100%;
+    width: 1px;
+    height: 70%;
+    background-color: rgba(0, 0, 0, 0.179);
+  }
+  header .navbar a:before{
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 2px;
+    background: var(--teal);
+    /* top: -80%; */
+    bottom: -2%;
+    transition: 0.8s ease;
+    border-radius: 50rem;
+}
+    header .navbar a:hover:before{
+        /* height: 100%; */
+        width: 100%;
+    }
+
+  /* #menu-bar {
+    color: var(--font);
+    border: .1rem solid var(--font);
+    border-radius: .5rem;
+    font-size: 3rem;
+    padding: .5rem 1.2rem;
+    cursor: pointer;
+    display: none;
+  }
+  
+  #menu-bar:hover {
+    color: var(--hover);
+    border: 0.1rem solid var(--hover);
+  } */
+
+.topbar{
+    background-color: var(--second);
+    width: 100%;
+    /* height: 5rem; */
+    /* padding: 1% 2% 1% 2%; */
+}
+.topbar-container{
+    width: 75%;
+    margin: auto;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 15px;
+}
+.topbar-container .left{
+    display: flex;
+    gap: 1rem;
+    color: #fff;
+}
+.topbar-container .left div>*{
+    margin: 1rem;
+}
+.topbar-container .left i{
+    color: var(--teal)
+}
+.topbar-container .right{
+    color: #fff;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.topbar-container .right a>*{
+    color: #fff;
+    text-decoration: none;
+    margin: 1rem;
+}
+.topbar-container .right a>*:hover{
+    color: var(--teal);
+}
+.topbar-container .right .appointment{
+    color: #fff;
+    text-decoration: none;
+    margin: 0rem;
+    background-color: var(--teal);
+    padding: 4%;
+    width: 19rem;
+}
+.topbar-container .right .appointment:hover{
+    color: var(--second);
+    background-color: var(--white);
+}
+/* end topbar */
+/* start bottombar */
+.bottombar{
+    background-color: var(--light);
+    width: 100%;
+    height: 9rem;
+}
+.bottombar .bottombar-container{
+    width: 75%;
+    margin: auto;
+    display: flex;
+    gap: 2rem;
+    justify-content: left;
+    align-items: center;
+    height: 9rem;
+}
+.bottombar .bottombar-container .header-box{
+    display: flex;
+    align-items: center;
+}
+.bottombar .bottombar-container .box-icon{
+    background-color: var(--white);
+    color: var(--teal);
+    box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.045);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 5rem;
+    width: 6.5rem;
+    margin: 2% 6% 2% 0%;
+    font-size: 18px;
+}
+.bottombar .bottombar-container .box-content p{
+    color: var(--gray);
+    font-size: 12px;
+}
+.bottombar .bottombar-container .box-content h3{
+    width: 18rem;
+}
+.bottombar .box-contact{
+    background-color: var(--teal);
+    font-size: 15px;
+    color: var(--white);
+    width: 30rem;
+    padding: 1%;
+    position: relative;
+    left: 80%;
+    bottom: 52px;
+    /* position: absolute;
+    right: 0;
+    top: 21.6%; */
+}
+.bottombar .box-contact>*{
+    margin: 1rem;
+}
+/* end bottombar */
