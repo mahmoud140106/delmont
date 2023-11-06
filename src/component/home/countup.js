@@ -22,7 +22,7 @@ const Counterup = () => {
                     <i className={counting.icon}></i>
                 </div>
                 <div className="count-title">
-                    <h3><CountUp start={counting.start} end={counting.end}/></h3>
+                    <h3><CountUp delay={1} duration={5}  start={counting.start} end={counting.end}/></h3>
                     <p>{counting.title}</p>
                 </div>
             </div>
