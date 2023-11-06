@@ -108,7 +108,7 @@
 }
 .icons-section .icons-container .icons-box:hover .title p{
     color: var(--white);
-    transition: 0.1s ease;
+    transition: 0.1s ease; 
 }
 .icons-section .icons-container .icons-box .basic-icon{
     color: var(--teal);
