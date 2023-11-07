@@ -1,0 +1,80 @@
+[
+    {
+        "id": 1,
+        "name": "Fitness Guidance to Patient",
+        "department":{
+            "first":"cardiology",
+            "second":"oncology"
+        },
+        "image": "./images/portfolio/01.jpg"
+    },
+    {
+        "id": 2,
+        "name": "Diagnostic Imagine",
+        "department":{
+            "first":"orthopedics",
+            "second":"pharmacy"
+        },
+        "image": "./images/portfolio/02.jpg"
+    },
+    {
+        "id": 3,
+        "name": "Orthodontics Surgery & Transplants",
+        "department":{
+            "first":"anesthesiology",
+            "second":"orthopedics"
+        },
+        "image": "./images/portfolio/03.jpg"
+    }, 
+    {
+        "id": 4,
+        "name": "Rehabilitation Center",
+        "department":{
+            "first":"cardiology",
+            "second":"pharmacy"
+        },
+        "image": "./images/portfolio/04.jpg"
+    },
+    {
+        "id": 5,
+        "name": "Blood Pressure Checkup",
+        "department":{
+            "first":"anesthesiology",
+            "second":"pediatric"
+        },
+        "image": "./images/portfolio/05.jpg"
+    },
+    {
+        "id": 6,
+        "name": "Dentures / Partial Dentures",
+        "department":{
+            "first":"oncology",
+            "second":"pharmacy"
+        },
+        "image": "./images/portfolio/06.jpg"
+    },    {
+        "id": 7,
+        "name": "Fluoride Treatment",
+        "department":{
+            "first":"orthopedics",
+            "second":"pediatric"
+        },
+        "image": "./images/portfolio/07.jpg"
+    },    {
+        "id": 8,
+        "name": "Periodontal Treatment",
+        "department":{
+            "first":"anesthesiology",
+            "second":"pediatric"
+        },
+        "image": "./images/portfolio/08.jpg"
+    },    {
+        "id": 9,
+        "name": "Oral Cancer Screening",
+        "department":{
+            "first":"cardiology",
+            "second":"oncology"
+        },
+        "image": "./images/portfolio/09.jpg"
+    }
+]

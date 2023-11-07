@@ -11,7 +11,7 @@ const Counterup = () => {
       ])
   return (
     <>
-    <div className='countup' data-aos="fade-right">
+    <div className='countup' data-aos="fade-left">
         <p>about medical</p>
         <h3>Powered By Over 1,503 Patients Trust Us With Their Sweet Love.</h3>
         <div className='count-container'>

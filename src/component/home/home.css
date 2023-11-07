@@ -30,6 +30,9 @@
     font-size: 15px;
     text-align: left;
 }
+.carousel-caption img{
+    margin-right: 1rem;
+}
 .carousel-caption h3{
     font-size: 6rem;
     font-weight: bolder;
@@ -89,7 +92,7 @@
 .icons-section .icons-container .icons-box:hover{
     background-color: var(--teal);
     padding-bottom: 3%;
-    transition: 0.8s ease;
+    transition: 0.5s ease;
     border: 1px solid var(--white);
 }
 .icons-section .icons-container .icons-box:hover .basic-icon{
@@ -131,7 +134,7 @@
     color: var(--teal);
     transition: 1s ease;
     position: relative;
-    left: -500%;
+    left: -800%;
 }
 .icons-section .icons-container .icons-box .link:hover{
     background-color: var(--second);

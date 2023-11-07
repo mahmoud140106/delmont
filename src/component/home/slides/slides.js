@@ -5,7 +5,7 @@ import'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import {Link} from 'react-router-dom';
-import data from '../../users/users.json';
+import data from '../../data/users.json';
 const Slides = () => {
   return (
     <>
@@ -63,4 +63,4 @@ const SliderButtons = () => {
         <button className="fa-solid fa-chevron-right" onClick={()=> swiper.slideNext()}></button>
       </div>
     )
-  }
+}

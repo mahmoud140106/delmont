@@ -1,8 +1,8 @@
 
 .notfound{
     margin: auto;
-    margin-top: 50%;
-    margin-bottom: 18%;
+    margin-top: 5%;
+    /* margin-bottom: 18%;  */
     width: 70%;
     color: var(--teal);
     text-align: center;
@@ -204,7 +204,7 @@ header {
     padding: 1%;
     position: relative;
     left: 80%;
-    bottom: 52px;
+    bottom: 51px;
     /* position: absolute;
     right: 0;
     top: 21.6%; */

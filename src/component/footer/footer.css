@@ -1,0 +1,113 @@
+/* start top-footer */
+.top-footer{
+    background-color: var(--count);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: var(--white);
+    margin: auto;
+    width: 100%;
+    margin-top: 6%;
+    padding: 0.5% 0%;
+}
+.top-footer .top-container{
+    display: flex;
+    flex-wrap: nowrap;
+    width: 80%;
+    margin: auto;
+}
+.top-footer .top-container .top-box{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    justify-content: left;
+    flex: 1 1 25rem;
+    padding: 2%;
+}
+.top-footer .top-container .top-box .top-title h3{
+    font-size: 2rem;
+}
+.top-footer .top-container .top-box .top-title p{
+    font-size: 1.4rem;
+}
+.top-footer .top-container .top-box .top-icon{
+    border: 1px solid var(--white);
+    width: 5rem;
+    height: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.top-footer .top-container .top-box i{
+    font-size: 2rem;
+}
+/* start footer */
+.Basic {
+    position: relative;
+    top: 0;
+    background-image: url(http://themetechmount.com/html/delmont/images/footer-bg.jpg);
+}
+.Basic .Basic-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    margin: auto;
+    width: 77%;
+}
+.Basic .Basic-container .Basic-box {
+    padding: 5rem ;
+    padding-left: 0rem;
+    flex: 1 1 25rem;
+}
+.Basic .Basic-container .Basic-box .pic-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+.Basic .Basic-container .Basic-box .pic-container img{
+    width: 80px;
+}
+.Basic .Basic-container .Basic-box h3 {
+    font-size: 2.5rem;
+    color: #fff;
+    margin: 1.8rem 0rem ;
+}
+
+.Basic .Basic-container .Basic-box p {
+    font-size: 1.5rem;
+    color: rgb(128,142,156);
+    margin: 2rem 0rem;
+}
+.Basic .Basic-container .Basic-box a {
+    display: block;
+    font-size: 1.5rem;
+    padding: 1rem 0;
+    width: max-content;
+    color: rgb(128,142,156);
+    text-decoration: none;
+}
+.Basic .Basic-container .Basic-box .con-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    flex: 1 1 50rem;
+    text-align: left;
+    /* width: 40%; */
+}
+.Basic .Basic-container .Basic-box .con-container a{
+    width: 10rem;
+}
+.Basic .Basic-container .Basic-box a:hover {
+    color: #ffffff;
+}
+.Basic .credit {
+    text-align: center;
+    padding: 3rem 0rem;
+    font-size: 1.5rem;
+    color: #fff;
+    background-color: #013340;
+}
+.Basic .credit span {
+    color: var(--count);
+}

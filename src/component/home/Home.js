@@ -14,7 +14,7 @@ const Home = () => {
     slide3="./images/slides/slider-mainbg-001.jpg"/>
     <Icons/>
     <div className='img-count'>
-    <Image data-aos="fade-left" src="./images/row-bgimage-6.jpg" fluid />
+    <Image data-aos="fade-right" src="./images/row-bgimage-6.jpg" fluid />
     <Counterup/>
     </div>
     <Slides/>
