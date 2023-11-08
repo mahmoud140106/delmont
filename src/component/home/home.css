@@ -308,7 +308,7 @@ html {
 /* start counter */
 .countup{
     width: 100%;
-    padding: 2%;
+    padding: 10%;
     position: relative;
 }
 .img-count img{
