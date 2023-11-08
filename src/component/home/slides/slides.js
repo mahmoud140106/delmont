@@ -38,7 +38,7 @@ const Slides = () => {
           <SwiperSlide key={user.id}>
               <div className='card' data-aos="zoom-in-up">
                 <div><img src={user.image} alt='img card'/>
-                <div class="content">
+                <div className="content">
                   <Link to={`/user/${user.id}`}>+</Link>
                 </div>
                 </div>

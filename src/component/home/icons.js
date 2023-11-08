@@ -14,7 +14,7 @@ const Icons = () => {
             <div className='icons-container'>
                 {
                     iconBox.map((icon)=>(
-                        <div className='icons-box' data-aos="zoom-in-up">
+                        <div key={icon.title} className='icons-box' data-aos="zoom-in-up">
                         <div className='basic-icon'>
                         <i className={icon.basicicon}></i>
                         </div>

@@ -7,7 +7,7 @@ const Cardiology = () => {
       <div className='card-container' >
       {data.map((research)=>(
         ((research.department.first)==="cardiology" || (research.department.second)==="cardiology")?
-        <Card research={research}/>
+        <Card key={research.id} research={research}/>
         :null
       ))}
       </div>

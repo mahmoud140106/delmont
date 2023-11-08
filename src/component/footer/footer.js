@@ -25,7 +25,7 @@ const TopFooter = () => {
             <div className='top-container'>
             {
             icons.map((icon)=>(
-                <div className="top-box" data-aos={icon.animate}>
+                <div key={icon.animate} className="top-box" data-aos={icon.animate}>
                     <div className="top-icon">
                         <i className={icon.icon}></i>
                     </div>
@@ -42,14 +42,14 @@ const TopFooter = () => {
 }
 const Basic = () => {
     return(
-        <section class="Basic">
-            <div class="Basic-container">
-                <div class="Basic-box" data-aos="fade-right">
+        <section className="Basic">
+            <div className="Basic-container">
+                <div className="Basic-box" data-aos="fade-right">
                     <h3>About Delmont</h3>
                     <p>Our Clinic has grown to provide a world class facility for the clinic advanced restorative dentistry.</p>
                     <p>We are among the most qualified implant providers in the AUS with over 30 years of quality training and experience.</p>
                 </div>
-                <div class="Basic-box" data-aos="zoom-in-up">
+                <div className="Basic-box" data-aos="zoom-in-up">
                     <h3>Quick Links</h3>
                     <a href="/">Home</a>
                     <a href="/pages">Pages</a>
@@ -57,9 +57,9 @@ const Basic = () => {
                     <a href="/services">Services</a>
                     <a href="/blog">Blog</a>
                 </div>
-                <div class="Basic-box" data-aos="zoom-in-up">
+                <div className="Basic-box" data-aos="zoom-in-up">
                     <h3>Latest News</h3>
-                    <div class="pic-container">
+                    <div className="pic-container">
                         <img src="./images/blog/01.jpg" alt="" data-aos="fade-right" />
                         <img src="./images/blog/02.jpg" alt="" data-aos="fade-left"/>
                         <img src="./images/blog/03.jpg" alt="" data-aos="fade-right" />
@@ -68,9 +68,9 @@ const Basic = () => {
                         <img src="./images/blog/03.jpg" alt="" data-aos="fade-left"/>
                     </div>
                 </div>
-                <div class="Basic-box" data-aos="fade-left">
+                <div className="Basic-box" data-aos="fade-left">
                     <h3>Our Services</h3>
-                    <div class="con-container">
+                    <div className="con-container">
                         <a href="/Surgery">Surgery</a>
                         <a href="/Psychological">Psychological</a>
                         <a href="/Cardiology">Cardiology</a>
@@ -82,7 +82,7 @@ const Basic = () => {
                     </div>
                 </div>
             </div>
-            <h1 class="credit">
+            <h1 className="credit">
                 copyright &copy;2023 all rights reserved | this template is made with <span>&#9825;</span> by <span>Mahmoud Amer</span>
             </h1>
         </section>

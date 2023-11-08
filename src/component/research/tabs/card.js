@@ -2,10 +2,10 @@ import { Link } from "react-router-dom"
 
 function Card(props){
     return(
-        <div className='card'>
+        <div className='card' data-aos="zoom-in-up" >
         <div>
           <img src={`/${props.research.image}`} alt='img card'/>
-          <div class="content">
+          <div className="content">
               <Link to={`/research/${props.research.id}`}><i className="fas fa-search" id="search"></i></Link>
           </div>
         </div>

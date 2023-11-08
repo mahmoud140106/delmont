@@ -17,7 +17,7 @@ const Counterup = () => {
         <div className='count-container'>
         {
         count.map((counting)=>(
-            <div className="count-box">
+            <div key={counting.title} className="count-box">
                 <div className="count-icon">
                     <i className={counting.icon}></i>
                 </div>

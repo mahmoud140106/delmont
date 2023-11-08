@@ -8,7 +8,7 @@ const All = () => {
     <>
       <div className='card-container' >
       {data.map((research)=>(
-        <Card research={research}/>
+        <Card key={research.id} research={research}/>
       ))}
       </div>
     </>
