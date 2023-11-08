@@ -6,7 +6,7 @@ const Blog = () => {
     <>
     <div className='blog'>
     {data.map((research)=>(
-        <div key={research.id} className='blog-container'>
+        <div key={research.id} className='blog-container' data-aos="zoom-in-up" >
         <div><img src={`/${research.image}`} alt={research.image}/></div>
         <div className='content'>
             <p><i class="fa-solid fa-comment"></i>3 comment<i class="fa-solid fa-user"></i>alex</p>

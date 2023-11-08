@@ -67,6 +67,9 @@
         justify-content: center;
         align-items: center;
     }
+    .blog .blog-container img{
+        width: 30rem;
+    }
     .blog .blog-container{
         flex-wrap: wrap;
         width: min-content;
@@ -77,6 +80,7 @@
     }
     .blog .blog-container .content{
         padding: 4%;
+        width: 30rem; 
     }
   }
   @media (max-width: 385px) {
