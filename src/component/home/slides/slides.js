@@ -20,8 +20,11 @@ const Slides = () => {
         <Swiper
             spaceBetween={20} 
             breakpoints = {{
-              1024: {
+              1440: {
                   slidesPerView: 4,
+              },
+              1024: {
+                  slidesPerView: 3,
               },
               768: {
                   slidesPerView: 2,

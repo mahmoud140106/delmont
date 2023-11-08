@@ -160,7 +160,7 @@
     padding: 4%;
     position: absolute;
     right: 0;
-    top: 10%;
+    top: 8.4%;
 }
 .countup p{
     font-size: 13px;
@@ -208,12 +208,26 @@
 }
 /* end counter */
 /* media query */
+@media (max-width: 1440px) {
+.countup .count-container .count-box{
+    flex: 1 1 20rem !important;
+}
+.countup{
+    top: 10.7%;
+}
+}
 @media (max-width: 1200px) {
 html {
     font-size: 55%;
 }
 }
 @media (max-width: 1024px) {
+.countup .count-container .count-box{
+    flex: 1 1 20rem !important;
+}
+.countup{
+    top: 12.8%;
+}
 }
 @media (max-width: 768px) {
 .carousel-item{
@@ -253,7 +267,7 @@ html {
 }
 .countup{
     padding: 2%;
-    top: 10%;
+    top: 27%;
 }
 .countup h3{
     margin-top: 1%;
@@ -262,12 +276,24 @@ html {
     margin-top: 1%;
 }
 .countup .count-container .count-box{
-    flex: 1 1 15rem;
+    flex: 1 1 15rem !important;
+    /* border: 1px solid rgba(0, 0, 0, 0.1) !important; */
     padding: 1%;
+}
+.countup .count-container .count-box i{
+    font-size: 2rem;
+    height: 5rem;
+}
+.countup h3{
+    font-size: 2rem;
 }
 /* end counter */
 }
 @media (max-width: 450px) {
+.countup .count-container .count-box{
+    border: 1px solid rgba(0, 0, 0, 0.1) !important;
+    flex: 1 1 15rem !important;
+}
 .carousel-item{
     height: 70rem;
 }
@@ -300,10 +326,7 @@ html {
 /* end counter */
 }
 @media (max-width: 385px) {
-.countup .count-container .count-box{
-    border: 1px solid rgba(0, 0, 0, 0.1) !important;
-    flex: 1 1 20rem !important;
-}
+
 .countup{
     margin-bottom: 10%;
 }
