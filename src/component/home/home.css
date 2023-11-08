@@ -207,3 +207,116 @@
     height: 5rem;
 }
 /* end counter */
+/* media query */
+@media (max-width: 1200px) {
+html {
+    font-size: 55%;
+}
+}
+@media (max-width: 1024px) {
+}
+@media (max-width: 768px) {
+.carousel-item{
+    height: 45rem;
+}
+.carousel-control-next-icon, .carousel-control-prev-icon {
+    width: 4rem !important;
+    height: 4rem !important;
+}
+.carousel-caption {
+    width: 60%;
+    height: 55%;
+    top: 4%;
+}
+.carousel-caption h3{
+    font-size: 5rem;
+}
+.carousel-indicators{
+    bottom: 6% !important;
+}
+/* start icons */
+.icons-section{
+    margin-top: -7rem;
+    height: 25rem !important;
+}
+.icons-section .icons-container{
+    gap: 2rem !important;
+    width: 100%;
+}
+.icons-section .icons-container .icons-box{
+    padding: 2% 2%  0% 2%;
+    width: 25%;
+}
+/* start counter */
+.img-count img{
+    height: 40.8rem;
+}
+.countup{
+    padding: 2%;
+    top: 10%;
+}
+.countup h3{
+    margin-top: 1%;
+}
+.countup .count-container{
+    margin-top: 1%;
+}
+.countup .count-container .count-box{
+    flex: 1 1 15rem;
+    padding: 1%;
+}
+/* end counter */
+}
+@media (max-width: 450px) {
+.carousel-item{
+    height: 70rem;
+}
+/* start icons */
+.icons-section{
+    margin-top: -5rem !important;
+    height: 60rem !important;
+}
+.icons-section .icons-container{
+    width: 80% !important;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+.icons-section .icons-container .icons-box{
+    flex: 1 1 15rem;
+}
+/* start counter */
+.img-count img{
+    height: 100% !important;
+}
+.countup{
+    width: 100%;
+    padding: 2%;
+    position: relative;
+}
+.icons-section .icons-container .icons-box{
+    padding-bottom: 3%;
+}
+
+/* end counter */
+}
+@media (max-width: 385px) {
+.countup .count-container .count-box{
+    border: 1px solid rgba(0, 0, 0, 0.1) !important;
+    flex: 1 1 20rem !important;
+}
+.countup{
+    margin-bottom: 10%;
+}
+}
+@media (max-width: 320px) {
+    .icons-section{
+        margin-top: -7rem;
+        height: 60rem !important;
+    }
+    .icons-section .icons-container{
+        width: 90% !important;
+    }
+    .countup .count-container .count-box{
+        flex: 1 1 14rem !important;
+    }
+}

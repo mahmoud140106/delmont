@@ -4,6 +4,17 @@ import { Link, NavLink } from 'react-router-dom'
 const Header = () => {
   return (
     <>
+        <Topbar/>
+        <Mainheader/>
+        <Bottombar/>
+    </>
+  )
+}
+
+export default Header
+
+const Topbar = () => {
+    return(
         <div className="topbar">
             <div className="topbar-container">
             <div className="left">
@@ -19,28 +30,39 @@ const Header = () => {
             </div>
             </div>
         </div>
-
+    )
+}
+const Mainheader = () => {
+    const  menuhandler=()=>{
+        document.querySelector('#menu-bar').classList.toggle('fa-times')
+        document.querySelector('.navbar').classList.toggle('active')
+      }
+      window.onscroll =()=>{
+        document.querySelector('#menu-bar').classList.remove('fa-times');
+        document.querySelector('.navbar').classList.remove('active');
+      }
+    return(
         <div className="header">
         <header>
-            <Link to="/" href="index.html" className="logo" title="Delmont"><img src="./images/logo.png" alt="" /> </Link>
-
-            {/* <div id="icon" onClick={mode}>
-            {show?<i className="fa-solid fa-sun"></i> : <i className="fa-solid fa-moon"></i>}
-            </div> */}
+            <div id="menu-bar" className="fas fa-bars" onClick={menuhandler}></div>
+            <Link to="/"  className="logo" title="Delmont"><img src="./images/logo.png" alt="" /> </Link>
             <nav className="navbar">
                 <NavLink to="/">Home</NavLink>
                 <NavLink to="/pages">Pages</NavLink>
-                <NavLink to="/research">Research</NavLink>
+                <NavLink to="/research/all">Research</NavLink>
                 <NavLink to="/services">Services</NavLink>
                 <NavLink to="/blog">Blog</NavLink>
-                <><i className="fas fa-search" id="search"></i></>
-                <><i className="fa-solid fa-cart-shopping fa-flip-horizontal"></i></>
-                
             </nav>
-            {/* <div id="menu-bar" className="fas fa-bars" onClick={menuhandler}></div> */}
+            <div className="icon">
+            <Link id="search" to="/search"><i className="fas fa-search"></i></Link>
+            <Link to="/chart"><i className="fa-solid fa-cart-shopping fa-flip-horizontal"></i></Link>
+            </div>
         </header>
         </div>
-
+    )
+}
+const Bottombar = () => {
+    return(
         <div className="bottombar">
             <div className="bottombar-container">
                 <div className="header-box">
@@ -76,8 +98,5 @@ const Header = () => {
                 <span className="icon"><i className="fa fa-phone"></i></span>Toll Free : 1 123 456 78910
             </div>
         </div>
-    </>
-  )
+    )
 }
-
-export default Header

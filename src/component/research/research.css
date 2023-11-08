@@ -1,18 +1,6 @@
-  /* .research-head h2{
-    color: var(--white);
-    position: absolute;
-    z-index: 5000;
-    font-size: 4rem;
-    text-transform: capitalize;
-    margin-left: 12.4%;
-    margin-top: 7%;
-    text-align: left;
-  } */
-
 .research{
     display: flex;
     flex-direction: column;
-    /* align-items: center; */
     justify-content: center;
     margin: auto;
     margin-top: 3%;
@@ -66,9 +54,7 @@
     padding-bottom: 2%;
     box-shadow: inset 0px 0rem 5px rgba(0, 0, 0, 0.073);
 }
-/* .card-container .card .img-container{
-    padding: 1%;
-} */
+
 .card-container .card .content{
     position: absolute;
     top: 0;
@@ -96,20 +82,13 @@
     text-decoration: none;
 }
 .card-container .card .content a:hover{
-    background-color: var(--second);
+    background-color: var(--white);
     color: var(--teal);
 }
-/* .card-container .card:hover{
-    background-color: var(--teal);
-    transition: 2s ease;
-} */
 .card-container .card:hover .content {
     left: 0;
     display: flex;
 }
-/* .card-container .card:hover p,.card-container .card:hover h2{
-    color: var(--count) ;
-} */
 .card-container .card img{
     width: 100%;
     height: 100%;
@@ -120,8 +99,56 @@
     font-size: 1.5rem;
     margin-bottom: 0rem;
 }
-.card-container .card h3{
+.card-container .card h2{
     color: var(--second);
-    font-size: 3rem;
+    font-size: 2rem;
     margin-bottom: 0rem;
 }
+
+
+
+/* media query */
+@media (max-width: 1200px) {
+    html {
+      font-size: 55%;
+    }
+  }
+  @media (max-width: 1024px) {
+    .card-container .card .content{
+        height: 72%;
+    }
+    .card-container .card h2{
+        font-size: 1.5rem;
+    }
+  }
+  @media (max-width: 768px) {
+    .research .tabs{
+        flex-wrap: wrap;
+    }
+    .research .tabs a{
+        flex: 1 1 20rem !important;
+        margin-top: 2%;
+    }
+    .card-container .card .content{
+        height: 75.3%;
+    }
+  }
+  @media (max-width: 450px) {
+    .research .tabs a{
+        flex: 1 1 9rem !important;
+        padding: 0.8%;
+    }
+    .card-container .card .content{
+        height: 79.5%;
+    }
+  }
+  @media (max-width: 385px) {
+    .card-container .card .content{
+        height: 78.1% !important;
+    }
+  }
+  @media (max-width: 320px) {
+    .card-container .card .content{
+        height: 76.2% !important;
+    }
+  }

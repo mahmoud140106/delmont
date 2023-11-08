@@ -111,3 +111,48 @@
 .Basic .credit span {
     color: var(--count);
 }
+/* media query */
+@media (max-width: 1200px) {
+html {
+    font-size: 55%;
+}
+}
+@media (max-width: 1024px) {
+}
+@media (max-width: 768px) {
+.top-footer .top-container{
+    width: 100%;
+}
+.top-footer .top-container .top-box .top-title h3{
+    font-size: 1.5rem;
+}
+.top-footer .top-container .top-box .top-title p{
+    font-size: 1.3rem;
+}
+.Basic .Basic-container {
+    gap: 0.5rem;
+    width: 95%;
+}
+.Basic .Basic-container .Basic-box {
+    padding: 0rem ;
+    padding-top: 2rem;
+    padding-left: 0rem;
+    flex: 1 1 15rem;
+}
+.Basic .Basic-container .Basic-box .con-container a{
+    width: min-content;
+}
+}
+@media (max-width: 450px) {
+    .Basic .Basic-container {
+        width: 80%;
+    }
+    .top-footer .top-container{
+        width: 80%;
+        flex-wrap: wrap;
+    }
+}
+@media (max-width: 375px) {
+}
+@media (max-width: 320px) {
+}
