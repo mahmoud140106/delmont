@@ -106,7 +106,7 @@ const AboutReview = () => {
             <p>CLIENTS</p>
             <h3>Happy Patients & Clients</h3>
             <p>CLIENTS Happy Patients & Clients If you need any industrial solution we are available for you. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-            <a href='/'>VIEW MORE DEATILS <i class="fa-solid fa-arrow-right"></i></a>
+            <a href='/'>VIEW MORE DEATILS <i className="fa-solid fa-arrow-right"></i></a>
         </div>
         <div>
             <Swiper className='right-review' data-aos="fade-left"
@@ -140,13 +140,13 @@ const AboutReview = () => {
                   <div className='review-caption'>
                       <p>{review.description}
                           <br/>
-                          <span class="fa-solid fa-quote-right"></span>
+                          <span className="fa-solid fa-quote-right"></span>
                           </p>
-                          <i class="fa-solid fa-star"></i>
-                          <i class="fa-solid fa-star"></i>
-                          <i class="fa-solid fa-star"></i>
-                          <i class="fa-solid fa-star"></i>
-                          <i class="fa-solid fa-star"></i>
+                          <i className="fa-solid fa-star"></i>
+                          <i className="fa-solid fa-star"></i>
+                          <i className="fa-solid fa-star"></i>
+                          <i className="fa-solid fa-star"></i>
+                          <i className="fa-solid fa-star"></i>
                   </div> 
                   </SwiperSlide>
             ))

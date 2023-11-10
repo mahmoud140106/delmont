@@ -6,7 +6,7 @@ const Caption = (props) => {
   return (
     <>
         <Carousel.Caption>
-        <p> <img src='./images/slides/slider-icon001.png' alt='slider-icon001.png'></img>{props.caption}</p>
+        <p> <img src='/./images/slides/slider-icon001.png' alt='slider-icon001.png'></img>{props.caption}</p>
           <h3>
           <MovingComponent
             type="fadeInFromLeft"
