@@ -147,7 +147,7 @@
         height: 81.5%;
     }
   }
-  @media (max-width: 385px) {
+  @media (max-width: 395px) {
     .card-container .card .content{
         height: 80.1% !important;
     }

@@ -321,12 +321,16 @@
     .aboutreview .right-review .review-caption {
         margin-top: 5%;
         margin-left: 1%;
+        height: 30.9rem;
     }
     .ReviewIcons-container {
         display: none;
     }
   }
-  @media (max-width: 385px) {
+  @media (max-width: 395px) {
+    .aboutreview .right-review .review-caption {
+        height: 33.5rem;
+    }
     .aboutreview .right-review .review-caption:before {
         position: absolute;
         content: "";
@@ -342,6 +346,9 @@
     }
   }
   @media (max-width: 320px) {
+    .aboutreview .right-review .review-caption {
+        height: 38.9rem;
+    }
     .aboutreview .right-review .review-caption:before {
         position: absolute;
         content: "";
