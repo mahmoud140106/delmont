@@ -38,6 +38,58 @@ header {
     flex-wrap: nowrap;
     width: 60rem;
   }
+  header .navbar .pages .pages-container{
+    display: none;
+    width: 20rem;
+    /* height:12rem; */
+    background-color: var(--light);
+    height: max-content;
+    /* padding: 52% 0% 0% 0%; */
+    position: absolute;
+    top: 100%;
+    left: 0;
+    display: none;
+    flex-direction: column;
+    justify-content: left !important;
+    align-items: center;
+    box-shadow: inset 0px 0rem 5px rgba(0, 0, 0, 0.073);
+    /* gap: 1rem; */
+    /* border: 1px solid darkblue; */
+  }
+  header .navbar .pages .pages-container a{
+    border-bottom: 0.2px solid var(--gray);
+    color: var(--gray);
+    margin: 0;
+    padding: 6% 8%;
+    width: 20rem;
+    border-radius: 0;
+    text-align: left;
+    font-weight: normal;
+  }
+  header .navbar .pages i{
+    margin-left: 20%;
+    width: 1rem;
+  }
+  header .navbar .pages .pages-container a:hover{
+    color: var(--white);
+    background-color: var(--count);
+  }
+  header .navbar .pages .pages-container a.active{
+    color: var(--white);
+    background-color: var(--count);
+  }
+  header .navbar .pages .pages-container a.active:before{
+    width: 0%;
+  }
+  header .navbar .pages .pages-container a:before{
+    width: 0%;
+  }
+  header .navbar .pages:hover .pages-container{
+    display: flex;
+  }
+  header .navbar .pages:hover #pages-icon{
+    rotate: -90deg;
+  }
   header .navbar a{
     color: var(--second);
     font-size: 1.8rem;
@@ -47,9 +99,10 @@ header {
     margin: 0.5% 2% 0.5% 5%;
     display: flex;
     text-align: center;
-    justify-content: center;
+    /* justify-content: center; */
     align-items: center;
     border-radius: 5px;
+    /* width: max-content; */
   }
   header .icon{
     color: var(--second);
@@ -243,6 +296,10 @@ header {
   }
 }
 @media (max-width: 768px) {
+  header .navbar .pages .pages-container{
+    top: 50%;
+    left: 110%;
+  }
 #menu-bar {
   position: absolute;
   right: 2rem;
@@ -278,7 +335,8 @@ header .navbar.active {
   clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
 }
 header .navbar a.active:before{
-  width: 0%;
+  width: 0px;
+  color:#fff;
 }
 header .navbar a {
   width: 10rem;
@@ -312,9 +370,23 @@ header .navbar a {
 .bottombar{
   display: none
 }
+header .navbar .pages .pages-container{
+  top: 50%;
+  left: 100%;
+  width: min-content;
+}
+header .navbar .pages .pages-container a{
+  width: 12rem;
+  font-size: 1.5rem;
+}
 }
 @media (max-width: 375px) {
-
+  header .navbar .pages .pages-container{
+    left: 88%;
+  }
+  header .navbar .pages .pages-container a{
+    width: 10rem;
+  }
 }
 @media (max-width: 320px) {
 

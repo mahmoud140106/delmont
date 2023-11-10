@@ -37,6 +37,10 @@ const Mainheader = () => {
         document.querySelector('#menu-bar').classList.toggle('fa-times')
         document.querySelector('.navbar').classList.toggle('active')
       }
+    // const  pageshandler=()=>{
+    //     document.querySelector('#pages-icon').classList.toggle("fa-caret-down")
+    //     document.querySelector('#pages-icon').classList.toggle("fa-caret-right")
+    //   }
       window.onscroll =()=>{
         document.querySelector('#menu-bar').classList.remove('fa-times');
         document.querySelector('.navbar').classList.remove('active');
@@ -45,10 +49,17 @@ const Mainheader = () => {
         <div className="header">
         <header>
             <div id="menu-bar" className="fas fa-bars" onClick={menuhandler}></div>
-            <Link to="/"  className="logo" title="Delmont"><img src="./images/logo.png" alt="" /> </Link>
+            <Link to="/"  className="logo" title="Delmont"><img src="/./images/logo.png" alt="" /> </Link>
             <nav className="navbar">
                 <NavLink to="/">Home</NavLink>
-                <NavLink to="/pages">Pages</NavLink>
+                {/* <NavLink to="/pages" className="pages" onFocus={pageshandler}> */}
+                <NavLink to="/pages/aboutus" className="pages">
+                    Pages <i id="pages-icon" class="fa-solid fa-caret-down"></i>
+                    <div className="pages-container">
+                        <NavLink to="/pages/aboutus">About Us</NavLink> 
+                        <NavLink to="/pages/contactus">Contact Us</NavLink> 
+                    </div>
+                </NavLink>
                 <NavLink to="/research/all">Research</NavLink>
                 <NavLink to="/services">Services</NavLink>
                 <NavLink to="/blog">Blog</NavLink>

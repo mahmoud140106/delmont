@@ -37,7 +37,7 @@ const Slides = () => {
         {data.map((user)=>(
           <SwiperSlide key={user.id}>
               <div className='card' data-aos="zoom-in-up">
-                <div><img src={user.image} alt='img card'/>
+                <div><img src={`/${user.image}`} alt='img card'/>
                 <div className="content">
                   <Link to={`/user/${user.id}`}>+</Link>
                 </div>

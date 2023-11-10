@@ -13,6 +13,7 @@ import Pharmacy from './component/research/tabs/pharmacy';
 import Anesthesiology from './component/research/tabs/anesthesiology';
 import Pediatric from './component/research/tabs/pediatric';
 import Blog from './component/blog/blog';
+import About from './component/about/about';
 
 function App() {
   return (
@@ -21,7 +22,11 @@ function App() {
       <Header/>
       <Routes>
         <Route path='/' element={<Home/>}></Route>
-        {/* <Route path='/pages' element={<h1>2</h1>}></Route> */}
+        <Route path='/pages'>
+          <Route index element={<About/>}/>
+          <Route path='aboutus' element={<About/>}/>
+          <Route path='contactus' element={<h1>contactus</h1>}/>
+        </Route>
         <Route path='/research' element={<Research/>}>
           <Route index element={<All/>}/>
           <Route path='all' element={<All/>}/>
