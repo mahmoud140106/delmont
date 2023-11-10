@@ -322,12 +322,8 @@
         margin-top: 5%;
         margin-left: 1%;
     }
-    .ReviewIcons-container .ReviewIcons{
-        flex-wrap: wrap;
-    }
-    .ReviewIcons-container .ReviewIcons img{
-        padding: 1%;
-        margin: 1%;
+    .ReviewIcons-container {
+        display: none;
     }
   }
   @media (max-width: 385px) {
@@ -341,6 +337,9 @@
         border: 2rem solid transparent;
         border-bottom-color: rgba(255,255,255,.05);
     }
+    .ab-img img{
+        width: 40rem;
+    }
   }
   @media (max-width: 320px) {
     .aboutreview .right-review .review-caption:before {
@@ -352,5 +351,8 @@
         height: 0;
         border: 2rem solid transparent;
         border-bottom-color: rgba(255,255,255,.05);
+    }
+    .ab-img img{
+        width: 35rem;
     }
   }

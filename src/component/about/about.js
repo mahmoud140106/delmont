@@ -30,7 +30,7 @@ const MyAccordion = () => {
     <>
     <div className='about'>
         <div className='about-container' data-aos="zoom-in">
-            <div><img src='/./images/single-img-four.png' alt=''/></div>
+            <div className='ab-img'><img src='/./images/single-img-four.png' alt=''/></div>
             <div className='about-content'>
                 <p>WHAT WE DO</p>
                 <h2>We Have 25 Years Experience</h2>
