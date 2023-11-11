@@ -25,7 +25,7 @@ const TopFooter = () => {
             <div className='top-container'>
             {
             icons.map((icon)=>(
-                <div key={icon.animate} className="top-box" data-aos={icon.animate}>
+                <div key={icon.title} className="top-box" data-aos={icon.animate}>
                     <div className="top-icon">
                         <i className={icon.icon}></i>
                     </div>

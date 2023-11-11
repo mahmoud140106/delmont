@@ -24,14 +24,14 @@ const Contactus = () => {
     return(
       <div className='contactus'>
         <div className='contactus-container'>
-            <div className='left-box'>
+            <div className='left-box' data-aos="fade-right">
                 <h2>Do You want to Reach at the next Level of business Success?</h2>
                 <h3>Book a Complimentary Appointment by Visiting or calling Us!</h3>
                 <div className='top-contactus'>
                 <div className='top-container-icons'>
                 {
                 icons.map((icon)=>(
-                    <div key={icon.animate} className="icons-box" >
+                    <div key={icon.title} className="icons-box" >
                         <div className="icons-icon">
                             <i className={icon.icon}></i>
                         </div>
@@ -51,29 +51,29 @@ const Contactus = () => {
                     <a href="/"><i className="fa fa-linkedin"></i></a>
                 </div>
             </div>
-            <div className='right-box'>
+            <div className='right-box'  data-aos="fade-left">
                 <p>WHAT WE DO</p>
                 <h2>Get In Touch</h2>
                 <p>We offer extensive medical procedures to outbound and inbound patients what it is and we are very proud of achievpatients for recovery</p>
                 <form>
                 <div>
-                <label htmlFor='name'><i class="fa-regular fa-user"></i></label>
+                <label htmlFor='name'><i className="fa-regular fa-user"></i></label>
                 <input type='text' id='name'placeholder="Your Name"></input>
                 </div>
                 <div>
-                <label htmlFor='number'><i class="fa-solid fa-mobile-screen"></i></label>
+                <label htmlFor='number'><i className="fa-solid fa-mobile-screen"></i></label>
                 <input type='text' id='number' placeholder="Cell Phone"></input>
                 </div>
                 <div>
-                <label htmlFor='email'><i class="fa-regular fa-envelope"></i></label>
+                <label htmlFor='email'><i className="fa-regular fa-envelope"></i></label>
                 <input type='email' id='email' placeholder="Email"></input>
                 </div>
                 <div>
-                <label htmlFor='location'><i class="fa-solid fa-location-dot"></i></label>
+                <label htmlFor='location'><i className="fa-solid fa-location-dot"></i></label>
                 <input type='text' id='location' placeholder="Venue"></input>
                 </div>
                 <div>
-                <label htmlFor='msg'><i class="fa-regular fa-message"></i></label>
+                <label htmlFor='msg'><i className="fa-regular fa-message"></i></label>
                 <textarea name="textarea" placeholder="Message" id='msg'></textarea>
                 </div>
                 <button type='button'>SEND MESSAGE</button>
@@ -93,7 +93,6 @@ const SimpleMap=()=>{
     };
   
     return (
-      // Important! Always set the container height explicitly
       <div className="simpleMap" >
         <GoogleMapReact
           bootstrapURLKeys={{ key: "" }}

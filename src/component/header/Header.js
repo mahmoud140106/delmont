@@ -48,9 +48,8 @@ const Mainheader = () => {
             <Link to="/"  className="logo" title="Delmont"><img src="/./images/logo.png" alt="" /> </Link>
             <nav className="navbar">
                 <NavLink to="/">Home</NavLink>
-                {/* <NavLink to="/pages" className="pages" onFocus={pageshandler}> */}
-                <NavLink to="/pages/aboutus" className="pages">
-                    Pages <i id="pages-icon" class="fa-solid fa-caret-down"></i>
+                <NavLink to="/pages" className="pages">
+                    Pages <i id="pages-icon" className="fa-solid fa-caret-down"></i>
                     <div className="pages-container">
                         <NavLink to="/pages/aboutus">About Us</NavLink> 
                         <NavLink to="/pages/contactus">Contact Us</NavLink> 

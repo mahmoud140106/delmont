@@ -66,6 +66,7 @@ margin: 5% auto;
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
+    gap: 1.4rem;
 }
 .top-contactus .top-container-icons .icons-box{
     display: flex;
@@ -129,7 +130,7 @@ margin: 5% auto;
 .right-box input,textarea{
     width: 50rem;
     height: 5rem;
-    margin: 3% 0%;
+    margin: 1% 0%;
     margin-left: 4%;
     border: 0px;
     background-color: transparent;
@@ -162,6 +163,9 @@ margin: 5% auto;
 @media (max-width: 1200px) {
 }
 @media (max-width: 1024px) {
+.right-box input,textarea{
+    height: 6.7rem;
+}
 }
 @media (max-width: 768px) {
 .contactus{
