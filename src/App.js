@@ -14,6 +14,7 @@ import Anesthesiology from './component/research/tabs/anesthesiology';
 import Pediatric from './component/research/tabs/pediatric';
 import Blog from './component/blog/blog';
 import About from './component/about/about';
+import Contact from './component/contact/contact';
 
 function App() {
   return (
@@ -25,7 +26,7 @@ function App() {
         <Route path='/pages'>
           <Route index element={<About/>}/>
           <Route path='aboutus' element={<About/>}/>
-          <Route path='contactus' element={<h1>contactus</h1>}/>
+          <Route path='contactus' element={<Contact/>}/>
         </Route>
         <Route path='/research' element={<Research/>}>
           <Route index element={<All/>}/>

@@ -235,7 +235,7 @@
   @media (max-width: 768px) {
     .about .about-container{
         flex-wrap: wrap;
-        width: 100%;
+        width: 90%;
     }
     .about .about-container .about-content{
         margin-left: 2%;
@@ -360,6 +360,6 @@
         border-bottom-color: rgba(255,255,255,.05);
     }
     .ab-img img{
-        width: 35rem;
+        width: 33rem;
     }
   }

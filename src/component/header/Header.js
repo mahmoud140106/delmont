@@ -37,10 +37,6 @@ const Mainheader = () => {
         document.querySelector('#menu-bar').classList.toggle('fa-times')
         document.querySelector('.navbar').classList.toggle('active')
       }
-    // const  pageshandler=()=>{
-    //     document.querySelector('#pages-icon').classList.toggle("fa-caret-down")
-    //     document.querySelector('#pages-icon').classList.toggle("fa-caret-right")
-    //   }
       window.onscroll =()=>{
         document.querySelector('#menu-bar').classList.remove('fa-times');
         document.querySelector('.navbar').classList.remove('active');

@@ -1,0 +1,198 @@
+.contactus{
+width: 75%;
+margin: 5% auto;
+}
+.contactus .contactus-container{
+    display: flex;
+}
+.contactus .contactus-container .left-box{
+    display: flex;
+    flex-direction: column;
+    background-color: var(--count);
+    padding: 4%;
+    color: var(--white);
+    width: 70%;
+}
+.contactus .contactus-container .left-box h2{
+    font-size: 2.5rem;
+    font-weight: bolder;
+    padding: 2% 0%;
+}
+.contactus .contactus-container .left-box h3{
+    font-size: 1.8rem;
+    padding: 1% 0%;
+
+}
+.contactus .contactus-container .left-box .social{
+    margin-top: 5%;
+}
+.contactus .contactus-container .left-box .social a{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    padding: 2% ;
+    font-size: 1.4rem;
+    margin-right: 3%;
+    color: var(--dark);
+    color: var(--white);
+    border-radius: 50px;
+    width: 3.5rem;
+    height: 3.5rem;
+}
+.contactus .contactus-container .left-box .social a:first-child{
+    background-color: var(--hover);
+}
+.contactus .contactus-container .left-box .social a:last-child{
+    background-color: var(--hover);
+}
+.contactus .contactus-container .left-box .social a:nth-child(3){
+    background-color: #d3452b;
+}
+.contactus .contactus-container .left-box .social a:nth-child(2){
+    background-color: #2cbfd9;
+}
+.top-contactus{
+    margin-top: 2%;
+    padding: 5% 0%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    border-top: 0.1px solid rgba(255, 255, 255, 0.238) ;
+    border-bottom: 0.1px solid rgba(255, 255, 255, 0.238) ;
+}
+.top-contactus .top-container-icons{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+.top-contactus .top-container-icons .icons-box{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    justify-content: left;
+}
+.top-contactus .top-container-icons .icons-box .icons-title h3{
+    font-size: 2rem;
+}
+.top-contactus .top-container-icons .icons-box .icons-title p{
+    font-size: 1.4rem;
+}
+.top-contactus .top-container-icons .icons-box .icons-icon{
+    border: 1px solid var(--white);
+    width: 5.5rem;
+    height: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.top-contactus .top-container-icons .icons-box i{
+    font-size: 2rem;
+}
+.right-box{
+    background-color: var(--light);
+    padding: 4%;
+    padding-bottom: 2%;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: flex-start;
+    gap: 1rem;
+}
+.right-box p{
+    color: var(--gray);
+    margin-top: 2%;
+    font-size: 1.5rem;
+}
+.right-box h2{
+    color: var(--second);
+    font-size: 2.5rem;
+}
+.right-box div{
+    position: relative;
+    border-bottom: 0.1px solid rgba(0, 0, 0, 0.127);
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.right-box label{
+    color: var(--count);
+    font-size: 1.5rem;
+}
+.right-box input::placeholder,textarea::placeholder{
+    font-size: 1.8rem;
+    color: var(--second);
+}
+.right-box input,textarea{
+    width: 50rem;
+    height: 5rem;
+    margin: 3% 0%;
+    margin-left: 4%;
+    border: 0px;
+    background-color: transparent;
+    font-size: 2rem;
+    padding: 2% 0%;
+    outline: none;
+}
+.right-box button{
+    width: max-content;
+    height: 5rem;
+    background-color: var(--count);
+    font-size: 1.6rem;
+    margin-top: 3%;
+    padding: 2%;
+    border: 0px;
+    color: var(--white);
+}
+.right-box button:hover{
+    background-color: var(--second);
+}
+.simpleMap{
+    height: 50vh;
+    width: 75%;
+    margin: auto;
+}
+
+/* media query */
+@media (max-width: 1440px) {
+}
+@media (max-width: 1200px) {
+}
+@media (max-width: 1024px) {
+}
+@media (max-width: 768px) {
+.contactus{
+    width: 90%;
+}
+.contactus .contactus-container .left-box{
+    width: 100%;
+}
+.contactus .contactus-container{
+    flex-wrap: wrap;
+}
+.right-box input,textarea{
+    width: 70rem;
+}
+.simpleMap{
+    height: 40vh;
+    width: 90%;
+}
+}
+@media (max-width: 450px) {
+.right-box input,textarea{
+    width: 35rem;
+}
+}
+@media (max-width: 395px) {
+.right-box input,textarea{
+    width: 30rem;
+}
+}
+@media (max-width: 320px) {
+.right-box input,textarea{
+    width: 26rem;
+}
+}
