@@ -123,12 +123,10 @@ margin: 5% auto;
     color: var(--count);
     font-size: 1.5rem;
 }
-/* .right-box input::placeholder,textarea::placeholder{ */
 .right-box input::placeholder{
     font-size: 1.8rem;
     color: var(--second);
 }
-/* .right-box input,textarea{ */
 .right-box input{
     width: 50rem;
     height: 5rem;
@@ -165,7 +163,7 @@ margin: 5% auto;
 @media (max-width: 1200px) {
 }
 @media (max-width: 1024px) {
-.right-box input,textarea{
+.right-box input{
     height: 6.7rem;
 }
 }
@@ -179,7 +177,7 @@ margin: 5% auto;
 .contactus .contactus-container{
     flex-wrap: wrap;
 }
-.right-box input,textarea{
+.right-box input{
     width: 70rem;
 }
 .simpleMap{
@@ -188,17 +186,17 @@ margin: 5% auto;
 }
 }
 @media (max-width: 450px) {
-.right-box input,textarea{
+.right-box input{
     width: 35rem;
 }
 }
 @media (max-width: 395px) {
-.right-box input,textarea{
+.right-box input{
     width: 30rem;
 }
 }
 @media (max-width: 320px) {
-.right-box input,textarea{
+.right-box input{
     width: 26rem;
 }
 }
