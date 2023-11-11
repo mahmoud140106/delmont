@@ -74,7 +74,8 @@ const Contactus = () => {
                 </div>
                 <div>
                 <label htmlFor='msg'><i className="fa-regular fa-message"></i></label>
-                <textarea name="textarea" placeholder="Message" id='msg'></textarea>
+                {/* <textarea name="textarea" placeholder="Message" id='msg'></textarea> */}
+                <input type='text' name="textarea" placeholder="Message" id='msg'></input>
                 </div>
                 <button type='button'>SEND MESSAGE</button>
                 </form>

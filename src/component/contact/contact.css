@@ -123,11 +123,13 @@ margin: 5% auto;
     color: var(--count);
     font-size: 1.5rem;
 }
-.right-box input::placeholder,textarea::placeholder{
+/* .right-box input::placeholder,textarea::placeholder{ */
+.right-box input::placeholder{
     font-size: 1.8rem;
     color: var(--second);
 }
-.right-box input,textarea{
+/* .right-box input,textarea{ */
+.right-box input{
     width: 50rem;
     height: 5rem;
     margin: 1% 0%;
